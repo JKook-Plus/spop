@@ -13,3 +13,15 @@
     line-height: 50px; 
     display: inline-block;
 }
+
+[data-bs-theme="light"] {
+    .logo {
+        fill: var(--bs-secondary);
+    }
+}
+
+[data-bs-theme="dark"] {
+    .logo {
+        fill: var(--bs-secondary);
+    }
+}
