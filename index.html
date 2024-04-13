@@ -27,10 +27,19 @@
 				</div>
 
 				<div class="shadow justify-content-center mx-auto m-1 py-3 row flex-grow-1 rounded" style="padding-bottom: 30px">
-					<input type="file" id="pdfFile" accept=".pdf" />
-					<label for="pageCountInput">Pages Per Document:</label>
-					<input type="number" id="pageCountInput" min="1" value="2" />
-					<button onclick="splitAndDownload()">Split PDF and Download Zip</button>
+					<div class="row">
+						<div class="col">
+							<input class="form-control" type="file" id="pdfFile" accept=".pdf" />
+						</div>
+						<div class="col input-group mb-3">
+							<label class="input-group-text" for="pageCountInput">Pages Per Document:</label>
+							<input class="form-control" type="number" id="pageCountInput" min="1" value="2" />
+						</div>
+
+						<div class="col input-group mb-3">
+							<button class="btn mx-0 btn-secondary flex-fill" onclick="splitAndDownload()">Split PDF and Download Zip</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
