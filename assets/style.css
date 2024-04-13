@@ -1,0 +1,15 @@
+.image-selector {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.inline-title{
+    text-align: center; 
+    vertical-align: middle; 
+    line-height: 50px; 
+    display: inline-block;
+}
