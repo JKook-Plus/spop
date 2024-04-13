@@ -1,3 +1,4 @@
 test_*
 example*
 .vscode
+*.psd
